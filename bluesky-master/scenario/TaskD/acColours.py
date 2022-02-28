@@ -8,7 +8,7 @@ for line in file:
     newFile.write(line)
     if 'DEST EHAM' in line:
         # Than we have toe define colour
-        newFile.write(line[:-10] + "colour BLUE\r")
+        newFile.write(line[:-10] + "colour 255,150,150 \r")
 
 file.close()
 newFile.close()
