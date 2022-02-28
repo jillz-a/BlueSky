@@ -3,5 +3,14 @@
 #North West IAF
 00:00:00.00> POLYLINE STAR-NW-01 IAFNW NW02 NW01 R1815
 
+
+#North East Approach Fix
+00:00:00.00>polyline AFNE IAFNE REGSU SPY OA R1813
+
+#South East Approach Fix
+00:00:00.00>polyline AFSE IAFSE SE01 PAM SPY OA R1813
+
 #Colour
 00:00:00.00> COLOUR STAR-NW-01 RED
+00:00:00.00>colour AFSE pink
+00:00:00.00>colour AFNE pink
