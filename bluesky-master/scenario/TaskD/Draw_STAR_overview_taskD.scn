@@ -1,16 +1,25 @@
 # DEFFIX.scn needs to be called once first
 
 #North West IAF
-00:00:00.00> POLYLINE STAR-NW-01 IAFNW NW02 NW01 R1815
-
+00:00:00.00> POLYLINE AFNW IAFNW NW02 NW01 R1815
 
 #North East Approach Fix
 00:00:00.00>polyline AFNE IAFNE REGSU SPY OA R1813
 
+#South West Approach Fix
+00:00:00.00>POLYLINE AFSW IAFSW SW01 EH021 NW01 R1815
+
 #South East Approach Fix
 00:00:00.00>polyline AFSE IAFSE SE01 PAM SE02 SPY OA R1813
 
+#Kaagbaan SID
+00:00:00.00> polyline SIDkaag KAG22 KAG03 SID01
+
 #Colour
-00:00:00.00> COLOUR STAR-NW-01 RED
+00:00:00.00>COLOUR AFNW pink
+00:00:00.00>COLOUR AFSW pink
 00:00:00.00>colour AFSE pink
 00:00:00.00>colour AFNE pink
+
+#Oostbaan SID
+00:40:00.00> polyline SIDoost R1811 SID02
