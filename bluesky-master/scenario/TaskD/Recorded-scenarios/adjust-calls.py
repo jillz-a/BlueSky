@@ -1,7 +1,7 @@
 #this code is to replace commands in scn files with the call function
 
-file = open('eham-jilles-03.scn', 'r')
-newfile = open('eham-jilles-03-adjusted.scn', 'w')
+file = open('eham-jilles-04.scn', 'r')
+newfile = open('eham-jilles-04-adjusted.scn', 'w')
 
 note = 0
 for count, line in enumerate(file):
