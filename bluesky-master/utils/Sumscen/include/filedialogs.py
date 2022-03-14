@@ -15,7 +15,7 @@ except:
         import Tkinter.filedialog as filedialog
         
 import os
-
+import sys
 def askfileopen(txt):
     """returns filename of file selected"""
 
