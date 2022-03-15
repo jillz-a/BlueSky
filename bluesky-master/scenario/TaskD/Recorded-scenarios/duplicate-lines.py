@@ -5,10 +5,10 @@ import hashlib
 completed_lines_hash = set()
 
 #3
-output_file = open('merge-final-v1.scn', "w")
+output_file = open('filtered-merge-final-v1.scn', "w")
 
 #4
-for line in open('filtered-merge-final-v1.scn', "r"):
+for line in open('merge-final-v1.scn', "r"):
   #5
   hashValue = hashlib.md5(line.rstrip().encode('utf-8')).hexdigest()
   #6
